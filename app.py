@@ -67,7 +67,7 @@ def takequiz():
       }
       
       # display as json
-      return jsonify(scorecard)
+      return datafin[id]
 
     #Take quiz if no score
     else:
